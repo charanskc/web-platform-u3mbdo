@@ -47,5 +47,25 @@ h1 {
 
 header {
   background-color: #263d36;
-  background-image: url(header.jpg);
+  background-image: url('./assets/banner-image.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  max-width: none;
+  padding: 10vw 2em;
+  text-align: center;
+  display: block;
+}
+
+#logo {
+  display: inline-block;
+  height: 120px;
+  vertical-align: top;
+  width: 120px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
